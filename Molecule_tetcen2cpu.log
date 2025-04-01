@@ -1,0 +1,447 @@
+ Entering Gaussian System, Link 0=g16
+ Input=Molecule_tetcen2cpu.gjf
+ Output=Molecule_tetcen2cpu.log
+ Initial command:
+ /opt/software/gaussian/g16_avx/g16/l1.exe "/users/xeb24177/Gau-2326916.inp" -scrdir="/users/xeb24177/"
+ Entering Link 1 = /opt/software/gaussian/g16_avx/g16/l1.exe PID=   2326917.
+  
+ Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision C.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
+                 1-Apr-2025 
+ ******************************************
+ %nproc=2
+ Will use up to    2 processors via shared memory.
+ %mem=18GB
+ %chk=Molecule_TETCEN.chk
+ --------------------
+ #p B3LYP/6-31G(d) SP
+ --------------------
+ 1/38=1,172=1/1;
+ 2/12=2,17=6,18=5,40=1/2;
+ 3/5=1,6=6,7=1,11=2,25=1,30=1,74=-5/1,2,3;
+ 4//1;
+ 5/5=2,38=5/2;
+ 6/7=2,8=2,9=2,10=2,28=1/1;
+ 99/5=1,9=1/99;
+ Leave Link    1 at Tue Apr  1 20:00:57 2025, MaxMem=  2415919104 cpu:               0.6 elap:               0.5
+ (Enter /opt/software/gaussian/g16_avx/g16/l101.exe)
+ ---------------
+ Molecule_TETCEN
+ ---------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ C                    -1.1172   -0.6098    4.7694 
+ C                    -0.4746    0.2717    3.9467 
+ C                    -0.4185    0.0114    2.5012 
+ C                     0.2133    0.8599    1.6675 
+ C                     0.2988    0.6114    0.2587 
+ C                     0.9076    1.448    -0.6327 
+ C                    -0.9548   -1.1859    2.0071 
+ C                    -1.6568   -2.082     2.8874 
+ C                    -1.7168   -1.8267    4.2704 
+ H                    -1.139    -0.3757    5.7626 
+ H                    -0.062     1.1818    4.279 
+ H                     0.6487    1.787     2.023 
+ H                     1.3268    2.3805   -0.2697 
+ H                    -1.9925   -2.9775    2.4767 
+ H                    -2.1537   -2.5107    4.9043 
+ C                    -0.2988   -0.6114   -0.2587 
+ C                     0.9548    1.1859   -2.0071 
+ C                    -0.9076   -1.448     0.6327 
+ C                    -0.2133   -0.8599   -1.6675 
+ C                     0.4185   -0.0114   -2.5012 
+ C                     1.6568    2.082    -2.8874 
+ H                    -1.3268   -2.3805    0.2697 
+ H                    -0.6487   -1.787    -2.023 
+ C                     0.4746   -0.2717   -3.9467 
+ C                     1.7168    1.8267   -4.2704 
+ H                     1.9925    2.9775   -2.4767 
+ C                     1.1172    0.6098   -4.7694 
+ H                     0.062    -1.1818   -4.279 
+ H                     2.1537    2.5107   -4.9043 
+ H                     1.139     0.3757   -5.7626 
+ 
+ ITRead=  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ ITRead=  0  0  0  0  0  0  0  0  0  0
+ MicOpt= -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ MicOpt= -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ NAtoms=     30 NQM=       30 NQMF=       0 NMMI=      0 NMMIF=      0
+                NMic=       0 NMicF=      0.
+                    Isotopes and Nuclear Properties:
+ (Nuclear quadrupole moments (NQMom) in fm**2, nuclear magnetic moments (NMagM)
+  in nuclear magnetons)
+
+  Atom         1           2           3           4           5           6           7           8           9          10
+ IAtWgt=          12          12          12          12          12          12          12          12          12           1
+ AtmWgt=  12.0000000  12.0000000  12.0000000  12.0000000  12.0000000  12.0000000  12.0000000  12.0000000  12.0000000   1.0078250
+ NucSpn=           0           0           0           0           0           0           0           0           0           1
+ AtZEff=  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NMagM=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   2.7928460
+ AtZNuc=   6.0000000   6.0000000   6.0000000   6.0000000   6.0000000   6.0000000   6.0000000   6.0000000   6.0000000   1.0000000
+
+  Atom        11          12          13          14          15          16          17          18          19          20
+ IAtWgt=           1           1           1           1           1          12          12          12          12          12
+ AtmWgt=   1.0078250   1.0078250   1.0078250   1.0078250   1.0078250  12.0000000  12.0000000  12.0000000  12.0000000  12.0000000
+ NucSpn=           1           1           1           1           1           0           0           0           0           0
+ AtZEff=  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NMagM=    2.7928460   2.7928460   2.7928460   2.7928460   2.7928460   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ AtZNuc=   1.0000000   1.0000000   1.0000000   1.0000000   1.0000000   6.0000000   6.0000000   6.0000000   6.0000000   6.0000000
+
+  Atom        21          22          23          24          25          26          27          28          29          30
+ IAtWgt=          12           1           1          12          12           1          12           1           1           1
+ AtmWgt=  12.0000000   1.0078250   1.0078250  12.0000000  12.0000000   1.0078250  12.0000000   1.0078250   1.0078250   1.0078250
+ NucSpn=           0           1           1           0           0           1           0           1           1           1
+ AtZEff=  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NMagM=    0.0000000   2.7928460   2.7928460   0.0000000   0.0000000   2.7928460   0.0000000   2.7928460   2.7928460   2.7928460
+ AtZNuc=   6.0000000   1.0000000   1.0000000   6.0000000   6.0000000   1.0000000   6.0000000   1.0000000   1.0000000   1.0000000
+ Leave Link  101 at Tue Apr  1 20:00:57 2025, MaxMem=  2415919104 cpu:               0.2 elap:               0.1
+ (Enter /opt/software/gaussian/g16_avx/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0       -1.117200   -0.609800    4.769400
+      2          6           0       -0.474600    0.271700    3.946700
+      3          6           0       -0.418500    0.011400    2.501200
+      4          6           0        0.213300    0.859900    1.667500
+      5          6           0        0.298800    0.611400    0.258700
+      6          6           0        0.907600    1.448000   -0.632700
+      7          6           0       -0.954800   -1.185900    2.007100
+      8          6           0       -1.656800   -2.082000    2.887400
+      9          6           0       -1.716800   -1.826700    4.270400
+     10          1           0       -1.139000   -0.375700    5.762600
+     11          1           0       -0.062000    1.181800    4.279000
+     12          1           0        0.648700    1.787000    2.023000
+     13          1           0        1.326800    2.380500   -0.269700
+     14          1           0       -1.992500   -2.977500    2.476700
+     15          1           0       -2.153700   -2.510700    4.904300
+     16          6           0       -0.298800   -0.611400   -0.258700
+     17          6           0        0.954800    1.185900   -2.007100
+     18          6           0       -0.907600   -1.448000    0.632700
+     19          6           0       -0.213300   -0.859900   -1.667500
+     20          6           0        0.418500   -0.011400   -2.501200
+     21          6           0        1.656800    2.082000   -2.887400
+     22          1           0       -1.326800   -2.380500    0.269700
+     23          1           0       -0.648700   -1.787000   -2.023000
+     24          6           0        0.474600   -0.271700   -3.946700
+     25          6           0        1.716800    1.826700   -4.270400
+     26          1           0        1.992500    2.977500   -2.476700
+     27          6           0        1.117200    0.609800   -4.769400
+     28          1           0        0.062000   -1.181800   -4.279000
+     29          1           0        2.153700    2.510700   -4.904300
+     30          1           0        1.139000    0.375700   -5.762600
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  C    1.366313   0.000000
+     3  C    2.453325   1.469821   0.000000
+     4  C    3.681308   2.452333   1.346915   0.000000
+     5  C    4.882909   3.783502   2.429676   1.433102   0.000000
+     6  C    6.125116   4.925958   3.693737   2.473628   1.365698
+     7  C    2.826405   2.473305   1.401884   2.380144   2.803338
+     8  C    2.449585   2.838946   2.462694   3.693265   4.241325
+     9  C    1.445464   2.459903   2.862562   4.209299   5.108886
+    10  H    1.020649   2.039129   3.362394   4.486119   5.773608
+    11  H    2.136298   1.053064   2.158124   2.645627   4.076560
+    12  H    4.050403   2.694171   2.126111   1.084190   2.148772
+    13  H    6.348823   5.046792   4.041855   2.702749   2.113222
+    14  H    3.410077   3.875851   3.378106   4.499555   4.801019
+    15  H    2.169320   3.387938   3.891889   5.238369   6.110963
+    16  C    5.094268   4.300716   2.831829   2.477341   1.456045
+    17  C    7.310176   6.190855   4.856971   3.762816   2.427805
+    18  C    4.225967   3.758650   2.420818   2.766520   2.415865
+    19  C    6.504865   5.733065   4.263723   3.776496   2.477341
+    20  C    7.455071   6.515611   5.071991   4.263723   2.831829
+    21  C    8.577147   7.384103   6.134433   4.931971   3.728911
+    22  H    4.840104   4.613105   3.394965   3.850447   3.405020
+    23  H    6.909558   6.317110   4.873974   4.622652   3.443288
+    24  C    8.866710   7.968816   6.515611   5.733065   4.300716
+    25  C    9.781926   8.645287   7.328669   6.201119   4.899023
+    26  H    8.662847   7.393781   6.276158   4.982387   3.993678
+    27  C    9.872622   8.866710   7.455071   6.504865   5.094268
+    28  H    9.142824   8.370349   6.901139   6.289061   4.884912
+    29  H   10.677864   9.500594   8.228253   7.048322   5.805563
+    30  H   10.815945   9.843019   8.417180   7.503183   6.084204
+                    6          7          8          9         10
+     6  C    0.000000
+     7  C    4.168274   0.000000
+     8  C    5.606082   1.439002   0.000000
+     9  C    6.453799   2.472609   1.407646   0.000000
+    10  H    6.958040   3.846314   3.383246   2.160073   0.000000
+    11  H    5.013560   3.400680   3.890029   3.433585   2.405578
+    12  H    2.689738   3.377810   4.586031   4.868801   4.675227
+    13  H    1.084921   4.807154   6.227604   6.897575   7.075694
+    14  H    6.137100   2.123011   1.040812   2.148886   4.277261
+    15  H    7.463326   3.403854   2.120985   1.029838   2.514860
+    16  C    2.415865   2.427805   3.728911   4.899023   6.084204
+    17  C    1.399964   5.038433   6.438614   7.457896   8.197001
+    18  C    3.644586   1.399964   2.459050   3.745808   5.245879
+    19  C    2.766520   3.762816   4.931971   6.201119   7.503183
+    20  C    2.420818   4.856971   6.134433   7.328669   8.417180
+    21  C    2.459050   6.438614   7.852844   8.825713   9.416968
+    22  H    4.523746   2.141031   2.655251   4.057634   5.850337
+    23  H    3.849705   4.086163   5.021486   6.383518   7.927656
+    24  C    3.758650   6.190855   7.384103   8.645287   9.843019
+    25  C    3.745808   7.457896   8.825713   9.903646  10.661484
+    26  H    2.629965   6.791534   8.227363   9.075384   9.430605
+    27  C    4.225967   7.310176   8.577147   9.781926  10.815945
+    28  H    4.574537   6.367806   7.424414   8.756270  10.145242
+    29  H    4.574786   8.431789   9.814448  10.861350  11.530652
+    30  H    5.245879   8.197001   9.416968  10.661484  11.772176
+                   11         12         13         14         15
+    11  H    0.000000
+    12  H    2.441495   0.000000
+    13  H    4.904724   2.463440   0.000000
+    14  H    4.926956   5.466465   6.875219   0.000000
+    15  H    4.289611   5.884349   7.925149   2.477323   0.000000
+    16  C    4.884912   3.443288   3.405020   3.993678   5.805563
+    17  C    6.367806   4.086163   2.141031   6.791534   8.431789
+    18  C    4.574537   3.849705   4.523746   2.629965   4.574786
+    19  C    6.289061   4.622652   3.850447   4.982387   7.048322
+    20  C    6.901139   4.873974   3.394965   6.276158   8.228253
+    21  C    7.424414   5.021486   2.655251   8.227363   9.814448
+    22  H    5.510371   4.934037   5.477195   2.381263   4.709589
+    23  H    6.990937   5.552192   4.934037   4.844625   7.125746
+    24  C    8.370349   6.317110   4.613105   7.393781   9.500594
+    25  C    8.756270   6.383518   4.057634   9.075384  10.861350
+    26  H    7.285945   4.844625   2.381263   8.710822  10.089127
+    27  C    9.142824   6.909558   4.840104   8.662847  10.677864
+    28  H    8.879265   6.990937   5.510371   7.285945   9.539827
+    29  H    9.539827   7.125746   4.709589  10.089127  11.831179
+    30  H   10.145242   7.927656   5.850337   9.430605  11.530652
+                   16         17         18         19         20
+    16  C    0.000000
+    17  C    2.803338   0.000000
+    18  C    1.365698   4.168274   0.000000
+    19  C    1.433102   2.380144   2.473628   0.000000
+    20  C    2.429676   1.401884   3.693737   1.346915   0.000000
+    21  C    4.241325   1.439002   5.606082   3.693265   2.462694
+    22  H    2.113222   4.807154   1.084921   2.702749   4.041855
+    23  H    2.148772   3.377810   2.689738   1.084190   2.126111
+    24  C    3.783502   2.473305   4.925958   2.452333   1.469821
+    25  C    5.108886   2.472609   6.453799   4.209299   2.862562
+    26  H    4.801019   2.123011   6.137100   4.499555   3.378106
+    27  C    4.882909   2.826405   6.125116   3.681308   2.453325
+    28  H    4.076560   3.400680   5.013560   2.645627   2.158124
+    29  H    6.110963   3.403854   7.463326   5.238369   3.891889
+    30  H    5.773608   3.846314   6.958040   4.486119   3.362394
+                   21         22         23         24         25
+    21  C    0.000000
+    22  H    6.227604   0.000000
+    23  H    4.586031   2.463440   0.000000
+    24  C    2.838946   5.046792   2.694171   0.000000
+    25  C    1.407646   6.897575   4.868801   2.459903   0.000000
+    26  H    1.040812   6.875219   5.466465   3.875851   2.148886
+    27  C    2.449585   6.348823   4.050403   1.366313   1.445464
+    28  H    3.890029   4.904724   2.441495   1.053064   3.433585
+    29  H    2.120985   7.925149   5.884349   3.387938   1.029838
+    30  H    3.383246   7.075694   4.675227   2.039129   2.160073
+                   26         27         28         29         30
+    26  H    0.000000
+    27  C    3.410077   0.000000
+    28  H    4.926956   2.136298   0.000000
+    29  H    2.477323   2.169320   4.289611   0.000000
+    30  H    4.277261   1.020649   2.405578   2.514860   0.000000
+ Stoichiometry    C18H12
+ Framework group  CI[X(C18H12)]
+ Deg. of freedom    42
+ Full point group                 CI      NOp   2
+ Largest Abelian subgroup         CI      NOp   2
+ Largest concise Abelian subgroup CI      NOp   2
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0       -1.117200   -0.609800    4.769400
+      2          6           0       -0.474600    0.271700    3.946700
+      3          6           0       -0.418500    0.011400    2.501200
+      4          6           0        0.213300    0.859900    1.667500
+      5          6           0        0.298800    0.611400    0.258700
+      6          6           0        0.907600    1.448000   -0.632700
+      7          6           0       -0.954800   -1.185900    2.007100
+      8          6           0       -1.656800   -2.082000    2.887400
+      9          6           0       -1.716800   -1.826700    4.270400
+     10          1           0       -1.139000   -0.375700    5.762600
+     11          1           0       -0.062000    1.181800    4.279000
+     12          1           0        0.648700    1.787000    2.023000
+     13          1           0        1.326800    2.380500   -0.269700
+     14          1           0       -1.992500   -2.977500    2.476700
+     15          1           0       -2.153700   -2.510700    4.904300
+     16          6           0       -0.298800   -0.611400   -0.258700
+     17          6           0        0.954800    1.185900   -2.007100
+     18          6           0       -0.907600   -1.448000    0.632700
+     19          6           0       -0.213300   -0.859900   -1.667500
+     20          6           0        0.418500   -0.011400   -2.501200
+     21          6           0        1.656800    2.082000   -2.887400
+     22          1           0       -1.326800   -2.380500    0.269700
+     23          1           0       -0.648700   -1.787000   -2.023000
+     24          6           0        0.474600   -0.271700   -3.946700
+     25          6           0        1.716800    1.826700   -4.270400
+     26          1           0        1.992500    2.977500   -2.476700
+     27          6           0        1.117200    0.609800   -4.769400
+     28          1           0        0.062000   -1.181800   -4.279000
+     29          1           0        2.153700    2.510700   -4.904300
+     30          1           0        1.139000    0.375700   -5.762600
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):           1.6556663           0.2148010           0.1901419
+ Leave Link  202 at Tue Apr  1 20:00:57 2025, MaxMem=  2415919104 cpu:               0.0 elap:               0.0
+ (Enter /opt/software/gaussian/g16_avx/g16/l301.exe)
+ Standard basis: 6-31G(d) (6D, 7F)
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+ There are   147 symmetry adapted cartesian basis functions of AG  symmetry.
+ There are   147 symmetry adapted cartesian basis functions of AU  symmetry.
+ There are   147 symmetry adapted basis functions of AG  symmetry.
+ There are   147 symmetry adapted basis functions of AU  symmetry.
+   294 basis functions,   552 primitive gaussians,   294 cartesian basis functions
+    60 alpha electrons       60 beta electrons
+       nuclear repulsion energy      1118.6090067343 Hartrees.
+ IExCor=  402 DFT=T Ex+Corr=B3LYP ExCW=0 ScaHFX=  0.200000
+ ScaDFX=  0.800000  0.720000  1.000000  0.810000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=   30 NActive=   30 NUniq=   15 SFac= 4.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned on.
+ Leave Link  301 at Tue Apr  1 20:00:58 2025, MaxMem=  2415919104 cpu:               0.1 elap:               0.1
+ (Enter /opt/software/gaussian/g16_avx/g16/l302.exe)
+ NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
+         NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
+ One-electron integrals computed using PRISM.
+ One-electron integral symmetry used in STVInt
+ NBasis=   294 RedAO= T EigKep=  2.03D-04  NBF=   147   147
+ NBsUse=   294 1.00D-06 EigRej= -1.00D+00 NBFU=   147   147
+ Precomputing XC quadrature grid using
+ IXCGrd= 4 IRadAn=           5 IRanWt=          -1 IRanGd=           0 AccXCQ= 0.00D+00.
+ Generated NRdTot=       0 NPtTot=           0 NUsed=           0 NTot=          32
+ NSgBfM=   293   293   293   293   293 MxSgAt=    30 MxSgA2=    30.
+ Leave Link  302 at Tue Apr  1 20:00:58 2025, MaxMem=  2415919104 cpu:               1.5 elap:               0.8
+ (Enter /opt/software/gaussian/g16_avx/g16/l303.exe)
+ DipDrv:  MaxL=1.
+ Leave Link  303 at Tue Apr  1 20:00:58 2025, MaxMem=  2415919104 cpu:               0.1 elap:               0.1
+ (Enter /opt/software/gaussian/g16_avx/g16/l401.exe)
+ ExpMin= 1.61D-01 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ Harris En= -693.168165910905    
+ JPrj=0 DoOrth=F DoCkMO=F.
+ Initial guess orbital symmetries:
+       Occupied  (AU) (AG) (AU) (AG) (AU) (AG) (AG) (AU) (AU) (AG)
+                 (AG) (AU) (AU) (AG) (AG) (AU) (AG) (AU) (AG) (AU)
+                 (AG) (AU) (AU) (AG) (AG) (AU) (AG) (AU) (AU) (AG)
+                 (AU) (AG) (AG) (AG) (AU) (AU) (AU) (AG) (AG) (AG)
+                 (AU) (AG) (AU) (AU) (AU) (AG) (AU) (AU) (AG) (AG)
+                 (AG) (AU) (AG) (AU) (AG) (AG) (AU) (AU) (AG) (AU)
+       Virtual   (AG) (AU) (AG) (AG) (AU) (AU) (AG) (AU) (AG) (AU)
+                 (AU) (AG) (AG) (AU) (AG) (AU) (AU) (AG) (AG) (AU)
+                 (AU) (AG) (AU) (AG) (AG) (AU) (AG) (AU) (AG) (AU)
+                 (AG) (AU) (AG) (AU) (AU) (AG) (AU) (AG) (AU) (AU)
+                 (AG) (AU) (AG) (AU) (AG) (AG) (AG) (AU) (AG) (AG)
+                 (AU) (AU) (AG) (AU) (AU) (AG) (AU) (AG) (AG) (AU)
+                 (AG) (AU) (AU) (AG) (AU) (AG) (AU) (AU) (AG) (AG)
+                 (AG) (AU) (AU) (AU) (AG) (AG) (AG) (AU) (AG) (AU)
+                 (AU) (AG) (AG) (AU) (AU) (AG) (AG) (AG) (AU) (AU)
+                 (AU) (AG) (AU) (AG) (AG) (AG) (AU) (AU) (AG) (AU)
+                 (AU) (AG) (AU) (AG) (AU) (AG) (AG) (AU) (AG) (AU)
+                 (AU) (AG) (AG) (AU) (AG) (AG) (AU) (AG) (AU) (AU)
+                 (AU) (AG) (AU) (AG) (AG) (AU) (AU) (AG) (AG) (AU)
+                 (AU) (AU) (AG) (AU) (AG) (AG) (AU) (AG) (AU) (AG)
+                 (AG) (AU) (AG) (AU) (AU) (AG) (AU) (AG) (AG) (AU)
+                 (AG) (AU) (AG) (AU) (AU) (AG) (AU) (AG) (AU) (AG)
+                 (AU) (AG) (AU) (AG) (AG) (AU) (AU) (AG) (AU) (AG)
+                 (AU) (AG) (AG) (AU) (AG) (AU) (AU) (AG) (AG) (AU)
+                 (AG) (AU) (AG) (AU) (AG) (AG) (AU) (AU) (AU) (AG)
+                 (AG) (AU) (AG) (AG) (AU) (AG) (AU) (AG) (AU) (AU)
+                 (AU) (AG) (AG) (AU) (AU) (AG) (AG) (AG) (AU) (AG)
+                 (AU) (AU) (AU) (AG) (AU) (AG) (AU) (AG) (AG) (AU)
+                 (AG) (AU) (AG) (AU) (AG) (AU) (AG) (AU) (AU) (AG)
+                 (AG) (AU) (AG) (AU)
+ The electronic state of the initial guess is 1-AG.
+ Leave Link  401 at Tue Apr  1 20:01:03 2025, MaxMem=  2415919104 cpu:               8.3 elap:               4.2
+ (Enter /opt/software/gaussian/g16_avx/g16/l502.exe)
+ Keep R1 ints in memory in symmetry-blocked form, NReq=1410533529.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=       600 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=  43365 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
